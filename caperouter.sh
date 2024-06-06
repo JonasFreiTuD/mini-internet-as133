@@ -14,7 +14,7 @@ interface port_LUAN
 ip a 133.0.9.1/24
 exit
 interface ext_13x_CAIR
-ip a 179.13
+ip a 179.13 #TODO
 exit
 interface L2.10
 ip a 133.200.0.1/24
@@ -36,7 +36,7 @@ network 133.105.0.2/24 area 0 #host
 exit
 
 # BGP
-
+#eBGP
 router bgp 133
 neighbor 133.151.0.1 remote-as 133
 neighbor 133.151.0.1 update-source lo
@@ -62,7 +62,8 @@ neighbor 133.158.0.1 next-hop-self
 network 133.0.0.0/8
 
 
-
+#iBGP
+#TODO
 
 
 

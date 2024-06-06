@@ -21,3 +21,7 @@ exit
 # OSPF 
 
 #TODO
+
+#BGP
+#eBGP
+#iBGP

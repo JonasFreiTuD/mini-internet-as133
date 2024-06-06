@@ -20,12 +20,12 @@ ip a 179.13x.13x.2/24
 exit
 interface L1 #TODO
 ip a 133.
-
+exit
 
 
 # OSPF
 
-#TOD
+#TODO
 
 
 
